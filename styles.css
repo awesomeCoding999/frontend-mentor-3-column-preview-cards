@@ -104,3 +104,22 @@ footer {
   margin-top: 1rem;
   text-align: center;
 }
+
+@media (min-width: 1024px) {
+  .cards-container {
+    display: flex;
+  }
+
+  .sedan-card {
+    border-radius: 8px 0 0 8px;
+  }
+
+  .luxury-card {
+    border-radius: 0 8px 8px 0;
+  }
+
+  .description {
+    width: 212px;
+    margin-bottom: 5.188rem;
+  }
+}
