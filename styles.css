@@ -63,40 +63,40 @@ body {
   line-height: 25px;
 }
 
-.btn {
+.link {
+  background-color: var(--white);
   border-radius: 25px;
-  border: none;
+  text-decoration: none;
   padding: 0.75rem 1.938rem;
   font-size: 0.938rem;
-  cursor: pointer;
 }
 
-.btn:hover {
+.link:hover {
   color: var(--white);
   border: 2px solid var(--white);
 }
 
-.sedan-btn {
+.sedan-link {
   color: var(--bright-orange);
 }
 
-.sedan-btn:hover {
+.sedan-link:hover {
   background-color: var(--bright-orange);
 }
 
-.suv-btn {
+.suv-link {
   color: var(--dark-cyan);
 }
 
-.suv-btn:hover {
+.suv-link:hover {
   background-color: var(--dark-cyan);
 }
 
-.luxury-car-btn {
+.luxury-car-link {
   color: var(--very-dark-cyan);
 }
 
-.luxury-car-btn:hover {
+.luxury-car-link:hover {
   background-color: var(--very-dark-cyan);
 }
 
@@ -105,7 +105,7 @@ footer {
   text-align: center;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
   .cards-container {
     display: flex;
     margin-top: 4rem;
