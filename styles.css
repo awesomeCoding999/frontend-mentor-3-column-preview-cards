@@ -108,7 +108,7 @@ footer {
 @media (min-width: 1024px) {
   .cards-container {
     display: flex;
-    margin-top: 3rem;
+    margin-top: 4rem;
   }
 
   .sedan-card {
